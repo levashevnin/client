@@ -9,7 +9,7 @@ client = Client(url)
 client.connect()
 print("client connect")
 
-while True:
+  while True: 
 Temp = client.get_node("ns=2;i = 2").get_value()
 print(Temp)
 time.sleep(1)
