@@ -19,7 +19,7 @@ Temp.set_writable()
 
 server.start()
 print(url)
-while True:
+  while True:
 Temperature = randint(10,50)
 print(Temperature)
 Temp.set_value(Temperature)
